@@ -1,0 +1,1 @@
+$("img[data-zoom-image]").elevateZoom({zoomType:"inner",cursor:"crosshair",zoomWindowFadeIn:500,zoomWindowFadeOut:750})

@@ -1,0 +1,1 @@
+$(document).ready(function(){for(var i,n=$("li[id*=menu]").find("a"),t=0;t<n.length;t++)i=$(n[t]),i.click(function(t){for(var e,r,i,u,o,s=$(this),f=0;f<n.length;f++)for(e=$(n[f]),r=e.attr("class").split(" "),i=0;i<r.length;i++)r[i].indexOf("_selected")!==-1&&e.removeClass(r[i]);u=$(t.target).closest("a");u.is(s)&&(o=u.closest("div").attr("id"),u.addClass(o+"_selected"))})})
